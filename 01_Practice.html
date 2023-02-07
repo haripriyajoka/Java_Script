@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function first(){
+         document.getElementById("demo2").innerHTML= "using a methode in Java Script";
+       }
+    </script>
+</head>
+<body>
+    <h1>Java Script</h1>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "My First JavaScript";
+    </script>
+    <p id="demo1">change the content</p>
+    <button type="button" onclick="document.getElementById('demo1').innerHTML='Hello Java Script!'">
+        Click here
+    </button>
+    <p id="demo2">here i have used a function and called it.</p>
+    <button type="button" onclick="first()">Try it</button>
+</body>
+</html>
